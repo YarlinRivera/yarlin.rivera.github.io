@@ -1,0 +1,523 @@
+header{
+    color: #472d30;
+    font-family: 'Pixelify Sans', cursive;
+    text-align: left;
+    margin-left: 5%;
+    font-size: larger;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff0f3;
+}
+
+.name{
+    width: 100%;
+    height: 350px;
+    background: #FFC8DD;
+    transform: skewY(-4deg);
+}
+
+.name .content{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+}
+
+.name .content .p-1{
+    color: #472d30;
+    font-family: 'Scope One', serif;
+    font-weight: bolder;
+    font-size: 65px;
+    transform: skewY(4deg);
+    margin-bottom: 0;
+}
+
+.name .content .p-2{
+    color: #472d30;
+    font-family: 'Scope One', serif;
+    font-size: 35px;
+    transform: skewY(4deg);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.name .img{
+    position: absolute;
+    top: 18%;
+    right: 5%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: skewY(5deg);
+    overflow: hidden;
+}
+
+.name .img img{
+    width: 180px;
+    height: 200px;
+}
+
+
+
+.navegacion {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo{
+    margin-left: 30px;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    text-align: center;
+    background: #CDB4DB;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    background: #FFC8DD;
+    margin-top: 5%;
+    margin-left: 23px;
+    margin-right: 23px;
+    padding: 15px 0;
+    border-radius: 20px;
+}
+
+  
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px 5%;
+}
+  
+nav ul{
+    list-style: none;
+    overflow: hidden; 
+}
+  
+nav ul li{
+    display: inline-block;
+    margin-right: 10px; 
+    padding: 0px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    display: block;
+    padding: 10px;
+    color: #472d30;
+    text-decoration: none;
+}
+
+  nav ul li:hover{
+    color: whitesmoke;
+    background: #c9939d;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+
+
+.que-encuentras{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.que-encuentras .info{
+    flex: 1;
+    padding: 15px;
+    text-align: center;
+} 
+
+.que-encuentras .tituloSeccion {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.que-encuentras .infoInfo {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.imagen-presentacion{
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.imagen-presentacion img{
+    padding: 20px;
+    background: #A2D2FF;
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+
+.acerca-de-mi{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-acerca{
+    margin-left: 50px;
+    padding-left:100px ;
+}
+
+.info{
+    width: 90%;
+    height: auto;
+    background: #FFC8DD;
+    margin: 5%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.info .tituloSeccion{
+    color: #472d30;
+    font-family: 'Pixelify Sans', cursive;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #472d30 dashed;
+}
+
+.info .tituloInfo{
+    color: #472d30;
+    font-family: 'Scope One', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 10px;
+}
+
+.info .infoInfo{
+    color: #723d46;
+    font-family: 'Scope One', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.info span{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-bottom: 20px;
+    background: #A2D2FF;
+    color: #472d30;
+    font-family: 'Pixelify Sans', cursive;
+    border-radius: 5px;
+}
+
+.aptitudes{
+    background: #BDE0FE;
+    padding-bottom: 30px;
+}
+
+.aptitudes .contenedor .titulo{
+    text-align: center;
+    font-family: 'Pixelify Sans', cursive;
+    font-size: xx-large;
+    background: #A2D2FF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.aptitud-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aptitud-ind{
+    width: 28%;
+    text-align: center;
+
+}
+
+aptitud-ind img{
+    width: 90%;
+}
+
+aptitud-ind h3{
+    font-family: 'Scope One', serif;
+    margin: 10px 0;
+}
+
+
+
+.contenedor-areas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.columna {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.bloque{
+    display: flex;
+    padding: 20px;
+    background: #A2D2FF;
+    border: 1px solid #ccc;
+    margin: 50px;
+}
+
+.bloque img{
+    max-width: 100%;
+    height: auto;
+    max-height: 180px;
+}
+
+.contenido-textos-areas{
+    flex: 1;
+    padding: 10px;
+}
+
+.bloque h3{
+    color: #472d30;
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.bloque p{
+    font-family: 'Scope One', serif;
+    font-size: 16px;
+    margin: 20px;
+}
+
+
+
+.proyectos{
+    margin: 50px;
+    border-radius: 20px;
+    background-color: #BDE0FE;
+    padding: 20px;
+    border: 1px solid #BDE0FE;
+}
+
+.titulo {
+    color: #472d30;
+    text-align: center;
+    font-family: 'Pixelify Sans', cursive;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+.proyecto-ind{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin: 30px;
+}
+
+.imagen-proyecto{
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.imagen-proyecto img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    
+}
+
+.imagen-proyecto .video-arbol {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.contenido-textos{
+    flex: 1;
+    padding: 10px;
+}
+
+.contenido-textos h3{
+    color: #472d30;
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.contenido-textos p{
+    font-family: 'Scope One', serif;
+    color: #472d30;
+    font-size: 16px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+
+
+footer{
+    background-color: #a691a8;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+    color: black;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #CDB4DB;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: whitesmoke;
+    border-bottom: 3px solid #CDB4DB;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo h5{
+    color: #472d30;
+}
+
+.content-foo p{
+    color: whitesmoke;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #edcbf0;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    header {
+        font-size: medium;
+    }
+
+    .logo {
+        margin-left: 2%;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        margin-top: 2%;
+    }
+
+    .menu li {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .columna {
+        width: 90%;
+    }
+
+    .bloque {
+        margin: 10px 0;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .proyecto-ind {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .imagen-proyecto {
+        margin: 10px 0;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .acerca-de-mi {
+        flex-direction: column;
+    }
+
+    .imagen-acerca {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .info {
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .aptitud-cont {
+        flex-direction: column;
+    }
+
+    .aptitud-ind {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .contacto .info {
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .contenedor-footer {
+        flex-direction: column;
+    }
+
+    .content-foo {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+
+
