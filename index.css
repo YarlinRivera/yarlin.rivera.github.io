@@ -76,7 +76,7 @@ body {
     padding: 10px;
 }
 
-.menu{
+.navegacion .menu{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,6 +142,7 @@ nav ul li a{
     flex: 1;
     padding: 15px;
     text-align: center;
+    width: unset;
 } 
 
 .que-encuentras .tituloSeccion {
@@ -167,6 +168,12 @@ nav ul li a{
     max-width: 100%;
     height: auto;
     border-radius: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .imagen-presentacion img {
+        max-width: 60%;
+    }
 }
 
 
@@ -443,6 +450,19 @@ footer{
     .menu li {
         display: block;
         margin: 5px 0;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .que-encuentras {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navegacion {
+        flex-direction: column;
     }
 }
 
