@@ -42,7 +42,7 @@ body {
     font-size: 5vw;
     transform: skewY(4deg);
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 2%;
 }
 
 .name .img{
@@ -53,6 +53,7 @@ body {
     border-radius: 100%;
     transform: skewY(5deg);
     overflow: hidden;
+    margin: 1%;
 }
 
 .name .img img{
@@ -101,11 +102,11 @@ nav{
 nav ul{
     list-style: none;
     overflow: hidden; 
+    padding: 0;
 }
   
 nav ul li{
     display: inline-block;
-    margin-right: 10px; 
     padding: 0px 20px;
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -168,12 +169,6 @@ nav ul li a{
     max-width: 100%;
     height: auto;
     border-radius: 100%;
-}
-
-@media screen and (max-width: 768px) {
-    .imagen-presentacion img {
-        max-width: 60%;
-    }
 }
 
 
@@ -461,11 +456,17 @@ footer{
 }
 
 @media screen and (max-width: 768px) {
-    .navegacion {
-        flex-direction: column;
+    .imagen-presentacion img {
+        max-width: 60%;
     }
 }
 
+@media screen and (max-width: 768px) {
+    .navegacion {
+        flex-direction: column;
+    }
+     
+}
 
 @media screen and (max-width: 768px) {
     .columna {
