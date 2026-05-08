@@ -61,27 +61,11 @@ body {
     height: auto;
 }
 
-.navegacion {
-    display: flex;
-    align-items: center;
-    
-}
-
-.logo{
-    margin-left: 30px;
-    margin-top: 5%;
-    margin-bottom: 1%;
-    text-align: center;
-    background: #CDB4DB;
-    border-radius: 100%;
-    padding: 10px;
-}
 
 .navegacion .menu{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
     height: auto;
     background: #FFC8DD;
     margin-top: 5%;
@@ -164,6 +148,7 @@ nav ul li a{
 }
 
 .imagen-presentacion img{
+    box-sizing: border-box;
     padding: 20px;
     background: #A2D2FF;
     max-width: 100%;
@@ -179,17 +164,26 @@ nav ul li a{
 }
 
 .imagen-acerca{
-    margin-left: 50px;
-    padding-left:100px ;
+    margin: 2%;
+    text-align: center;
 }
+
+.imagen-acerca img{
+    max-width: 500px;
+    height: auto;
+}
+
+
+
 
 .info{
     width: 90%;
     height: auto;
     background: #FFC8DD;
-    margin: 5%;
+    margin: 2%;
     padding: 20px;
     border-radius: 20px;
+    text-align: center;
 }
 
 .info .tituloSeccion{
@@ -399,6 +393,13 @@ footer{
     text-align: center;
 }
 
+.logo{
+    text-align: center;
+    background: #CDB4DB;
+    border-radius: 100%;
+    padding: 10px;
+}
+
 .content-foo h4{
     color: whitesmoke;
     border-bottom: 3px solid #CDB4DB;
@@ -462,6 +463,12 @@ footer{
 }
 
 @media screen and (max-width: 768px) {
+    .imagen-acerca img {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
     .navegacion {
         flex-direction: column;
     }
@@ -496,10 +503,6 @@ footer{
         flex-direction: column;
     }
 
-    .imagen-acerca {
-        margin-left: 0;
-        padding-left: 0;
-    }
 
     .info {
         margin: 10px;
@@ -535,6 +538,11 @@ footer{
     .content-foo {
         width: 100%;
         margin: 10px 0;
+    }
+
+    .content-foo-logo{
+        max-width: 30%;
+        margin: auto;
     }
 }
 
