@@ -291,7 +291,7 @@ aptitud-ind h3 {
 }
 
 .proyectos {
-  margin: 50px;
+  margin: 40px;
   border-radius: 20px;
   background-color: #bde0fe;
   padding: 20px;
@@ -455,6 +455,12 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  .proyectos{
+    margin: 20px;
+  }
+  .contenido-textos{
+    padding: 5px;
+  }
   .proyecto-ind {
     flex-direction: column;
     text-align: center;
