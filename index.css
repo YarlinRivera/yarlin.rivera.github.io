@@ -217,11 +217,6 @@ nav ul li:hover {
   border-radius: 5px;
 }
 
-
-
-
-
-
 .cat-block {
   margin-bottom: 14px;
   align-items: center;
@@ -244,6 +239,8 @@ nav ul li:hover {
   flex-wrap: wrap;
   gap: 6px;
   padding: 0 4px;
+    justify-content: center;
+
 }
 
 .cat-items span {
@@ -253,11 +250,6 @@ nav ul li:hover {
   border-radius: 6px;
   padding: 4px 12px;
 }
-
-
-
-
-
 
 .aptitudes {
   background: #bde0fe;
@@ -270,6 +262,7 @@ nav ul li:hover {
   font-size: xx-large;
   background: #a2d2ff;
   padding-top: 30px;
+  font-weight: bolder;
   padding-bottom: 30px;
 }
 
@@ -285,13 +278,20 @@ nav ul li:hover {
   text-align: center;
 }
 
-aptitud-ind img {
-  width: 100%;
+.habilidad-icon{
+  font-size: 4vw;
+  color: #c9939d;
 }
 
 aptitud-ind h3 {
   font-family: "Scope One", serif;
   margin: 10px 0;
+}
+
+.aptitud-ind p{
+    font-family: "Scope One", serif;
+  color: #472d30;
+  padding: 3vw;
 }
 
 .contenedor-areas {
