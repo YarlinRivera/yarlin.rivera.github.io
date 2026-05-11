@@ -217,6 +217,48 @@ nav ul li:hover {
   border-radius: 5px;
 }
 
+
+
+
+
+
+.cat-block {
+  margin-bottom: 14px;
+  align-items: center;
+}
+
+.cat-header {
+  background-color: #c9939d;
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #880e4f;
+  margin-bottom: 8px;
+  font-weight: bolder;
+  font-family: "Scope One", serif;
+}
+
+.cat-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 0 4px;
+}
+
+.cat-items span {
+  font-size: 13px;
+  color: #880e4f;
+  background: #fce4ec;
+  border-radius: 6px;
+  padding: 4px 12px;
+}
+
+
+
+
+
+
 .aptitudes {
   background: #bde0fe;
   padding-bottom: 30px;
