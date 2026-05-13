@@ -1,47 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hoja de Vida</title>
-    <link rel="shorcut icon" href="img/Yarlin-logos_white.png" type="image/x-icon">
-    <link rel="stylesheet" href="index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Scope+One&family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link
+      rel="shorcut icon"
+      href="img/Yarlin-logos_white.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Scope+One&family=Source+Code+Pro:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <h1>MI HOJA DE VIDA</h1>
+      <h1>MI HOJA DE VIDA</h1>
     </header>
     <div class="name">
-        <div class="img">
-            <img src="img/fotoPerfil_1.png" alt="">
-        </div>
-        <div class="content">
-            <p class="p-1">Yarlin Anyelis Rivera Rondón</p>
-            <p class="p-2">Estudiante de Ing. en Sistemas</p>
-        </div>
+      <div class="img">
+        <img src="img/fotoPerfil_1.png" alt="" />
+      </div>
+      <div class="content">
+        <p class="p-1">Yarlin Anyelis Rivera Rondón</p>
+        <p class="p-2">Estudiante de Ing. en Sistemas</p>
+      </div>
     </div>
 
-    <div id="header-container">
+    <section class="acerca-de-mi">
+      <div class="info">
+        <p class="tituloSeccion">Acerca de Mí</p>
+        <p class="tituloInfo">Estudiante de Ingeniería en Sistemas</p>
+        <br />
+        <p class="infoInfo">
+          ¡Hola! Soy Yarlin. Estudiante de Ingeniería de Sistemas apasionada por
+          el desarrollo de software y la arquitectura de datos. Me especializo
+          en crear soluciones eficientes y escalables, combinando un sólido
+          pensamiento analítico con un enfoque en la experiencia del usuario.
+          Enfocada en el aprendizaje continuo de nuevas tecnologías para
+          resolver problemas complejos de negocio.
+        </p>
+      </div>
+    </section>
 
-    </div>
-
-    <section class="que-encuentras">
-        <div class="info">
-            <p class="tituloSeccion">¿Qué encontrarás?</p>
-            <p  class="infoInfo">Aquí conocerás información significativa sobre mi desarrollo y como desenvuelvo mi formación 
-                como futura profesional de Ingeniería en Sistemas.</p><br>
-        </div>
-
-        <div class="imagen-presentacion">
-            <img src="img/programadora_trabajando.jpg" alt="">
-        </div>
-    
-
-
-        <div class="info">
+    <!-- <div class="info">
             <p class="tituloSeccion">Habilidades Técnicas</p>
             <span>Desarrollo web</span>
             <span>Bases de datos SQL</span>
@@ -51,15 +67,196 @@
             <span>APIs con Postman</span>
             <span>UX/UI básico</span>
             <span>Inglés técnico</span>
-        </div>
-    </section>
-    
-    <div id="footer-container">
+        </div> -->
 
+    <div class="info">
+      <div class="card-habilidades">
+        <p class="tituloSeccion">Habilidades Técnicas</p>
+
+        <div class="cat-block">
+          <p class="cat-header bi-window"> Desarrollo Web</p>
+          <div class="cat-items">
+            <span>HTML / CSS</span>
+            <span>JavaScript</span>
+            <span>Bootstrap</span>
+            <span>Hostinger</span>
+          </div>
+        </div>
+
+        <div class="cat-block">
+          <p class="cat-header bi-code-slash"> Backend</p>
+          <div class="cat-items">
+            <span>Java</span>
+            <span>PHP</span>
+          </div>
+        </div>
+
+        <div class="cat-block">
+          <p class="cat-header bi-database"> Base de Datos</p>
+          <div class="cat-items">
+            <span>MySQL</span>
+            <span>phpMyAdmin</span>
+          </div>
+        </div>
+
+        <div class="cat-block">
+          <p class="cat-header bi-tools"> Herramientas</p>
+          <div class="cat-items">
+            <span>Git</span>
+            <span>Postman</span>
+            <span>Documentación técnica</span>
+            <span>Diagramas UML</span>
+            <span>Modelado de procesos</span>
+            <span>Patrones de diseño</span>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <script src="main.js"></script>
-</body>
+    <section class="proyectos">
+      <h2 class="titulo">Proyectos Desarrollados</h2>
+      <div class="proyecto-ind">
+        <div class="contenido-textos">
+          <h3>E-Commerce de Ropa: SHALOM</h3>
+          <p>
+            Desarrollo de sitio web para la venta de ropa de una diseñadora,
+            proveedora de productos y dueña de la marca Shalom. El propósito de
+            la página era facilidad de comunicación y compra para sus clientes
+            aumentar el alcance y crecimiento de las ventas de las prendas
+            ofrecidas por la dueña. En el desarrollo se hizo con HTML, CSS,
+            JavaScript, Boostrap, Java y PHP.
+          </p>
+        </div>
+        <div class="imagen-proyecto">
+          <img
+            src="img/pagina_web_shalom.jpg"
+            alt="E-Commerce de Ropa: SHALOM"
+          />
+        </div>
+      </div>
+      <div class="proyecto-ind">
+        <div class="contenido-textos">
+          <h3>Paticipación en Modelado 3D (Blender)</h3>
+          <p>
+            Con Blender, una suite de creación de contenido 3D, modele un árbol
+            que cuenta con movimiento y efecto fluoresente con el fin de
+            contribuir a un pequeño clip para la temporada de Halloween del
+            2022.
+          </p>
+        </div>
+        <div class="imagen-proyecto">
+          <video
+            src="img/arbol_semillero.mp4"
+            class="video-arbol"
+            controls
+          ></video>
+        </div>
+      </div>
+      <div class="proyecto-ind">
+        <div class="contenido-textos">
+          <h3>Mi Página Web</h3>
+          <p>
+            Elaboré mi página web con el fin de mostrar mis habilidades sobre
+            todo en front con HTML, CSS y JavaScript; pero a su vez
+            presentandome no solo a mí, sino también mi información como
+            profesional de ingeniería de sistemas en constante aprendizaje.
+          </p>
+        </div>
+        <div class="imagen-proyecto">
+          <img src="img/pagina_hoja_de_vida.png" alt="Mi Página Web" />
+        </div>
+      </div>
+    </section>
+
+    <section class="aptitudes">
+      <div class="contenedor">
+        <p class="titulo">Habilidades Blandas</p>
+        <div class="aptitud-cont">
+          <div class="aptitud-ind">
+            <div class="habilidad-icon bi-people"></div>
+            <h3>Trabajo en equipo</h3>
+            <p>
+              Colaboro de forma efectiva con otros para alcanzar objetivos
+              comunes, aportando empatía, respeto y compromiso.
+            </p>
+          </div>
+          <div class="aptitud-ind">
+            <div class="habilidad-icon bi-lightbulb"></div>
+            <h3>Resolución de problemas</h3>
+            <p>
+              Analizo situaciones complejas, identifico causas y propongo
+              soluciones prácticas y eficientes.
+            </p>
+          </div>
+          <div class="aptitud-ind">
+            <div class="habilidad-icon bi-book"></div>
+            <h3>Autodidacta</h3>
+            <p>
+              Me gusta aprender por cuenta propia, investigar y mantenerme
+              siempre actualizado en nuevas tecnologías y tendencias.
+            </p>
+          </div>
+          <div class="aptitud-ind">
+            <div class="habilidad-icon bi-chat-left-dots"></div>
+            <h3>Comunicación efectiva</h3>
+            <p>
+              Expreso ideas de forma clara y asertiva, escucho activamente y
+              adapto el mensaje según la audiencia y el contexto.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="info">
+      <p class="tituloSeccion">Educación</p>
+      <p class="tituloInfo">Educación Superior:</p>
+      <p class="infoInfo">
+        Universidad Francisco de Paula Santander, Ingeniera de Sistemas,
+        Ingeniería de sistemas · (2021 - Actualidad)
+      </p>
+    </div>
+
+    <div class="info">
+      <p class="tituloSeccion">Lenguajes</p>
+      <p class="tituloInfo">Lengua Materna:</p>
+      <p class="infoInfo">Español</p>
+      <br />
+      <p class="tituloInfo">Otras Lenguas:</p>
+      <p class="infoInfo">Inglés - Nivel B2</p>
+    </div>
+
+    <footer>
+      <div class="contenedor-footer">
+        <div class="content-foo content-foo-logo">
+          <div class="logo">
+            <img src="img/Yarlin-logos_white.png" alt="Tu-Logo" />
+          </div>
+        </div>
+        <div class="content-foo">
+          <h4>E-mail</h4>
+          <h5>Institucional:</h5>
+          <p class="infoInfo">yarlinanyelisrr@ufps.edu.co</p>
+          <h5>Personal:</h5>
+          <p class="infoInfo">yarlinrivera12@gmail.com</p>
+        </div>
+        <div class="content-foo">
+          <h4>Mis Perfiles</h4>
+          <a href="https://www.linkedin.com/in/yarlin-rivera/" target="_blank"
+            ><img src="img/linkedin.png" alt="" /></a
+          ><br />
+          <a href="https://gitlab.com/yarlinanyelisriverarondon" target="_blank"
+            ><img src="img/gitlab.png" alt="" /></a
+          ><br />
+          <a href="https://github.com/YarlinRiveraR/" target="_blank"
+            ><img src="img/github.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <h2 class="titulo-final">
+        Copyright &copy; 2023 - <span id="anio-footer"></span> Todos los
+        derechos reservados | Yarlin Rivera
+      </h2>
+    </footer>
+  </body>
 </html>
-
-
