@@ -10,12 +10,6 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Scope+One&family=Source+Code+Pro:wght@200&display=swap"
-      rel="stylesheet"
-    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -31,17 +25,28 @@
     <header>
       <h1>MI HOJA DE VIDA</h1>
     </header>
-    <div class="name">
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre Mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#aptitudes">Aptitudes</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <section id="inicio" class="name">
       <div class="img">
-        <img src="img/fotoPerfil_1.png" alt="" />
+        <img src="img/fotoPerfil.jpeg" alt="" />
       </div>
       <div class="content">
         <p class="p-1">Yarlin Anyelis Rivera Rondón</p>
         <p class="p-2">Estudiante de Ing. en Sistemas</p>
       </div>
-    </div>
+    </section>
 
-    <section class="acerca-de-mi">
+    <section id="sobre-mi" class="acerca-de-mi">
       <div class="info">
         <p class="tituloSeccion">Acerca de Mí</p>
         <p class="tituloInfo">Estudiante de Ingeniería en Sistemas</p>
@@ -57,24 +62,12 @@
       </div>
     </section>
 
-    <!-- <div class="info">
-            <p class="tituloSeccion">Habilidades Técnicas</p>
-            <span>Desarrollo web</span>
-            <span>Bases de datos SQL</span>
-            <span>Ciberseguridad básica</span>
-            <span>Patrones de diseño</span>
-            <span>Fundamentos de IA</span>
-            <span>APIs con Postman</span>
-            <span>UX/UI básico</span>
-            <span>Inglés técnico</span>
-        </div> -->
-
-    <div class="info">
+    <section id="habilidades" class="info">
       <div class="card-habilidades">
         <p class="tituloSeccion">Habilidades Técnicas</p>
 
         <div class="cat-block">
-          <p class="cat-header bi-window"> Desarrollo Web</p>
+          <p class="cat-header bi-window">Desarrollo Web</p>
           <div class="cat-items">
             <span>HTML / CSS</span>
             <span>JavaScript</span>
@@ -84,7 +77,7 @@
         </div>
 
         <div class="cat-block">
-          <p class="cat-header bi-code-slash"> Backend</p>
+          <p class="cat-header bi-code-slash">Backend</p>
           <div class="cat-items">
             <span>Java</span>
             <span>PHP</span>
@@ -92,7 +85,7 @@
         </div>
 
         <div class="cat-block">
-          <p class="cat-header bi-database"> Base de Datos</p>
+          <p class="cat-header bi-database">Base de Datos</p>
           <div class="cat-items">
             <span>MySQL</span>
             <span>phpMyAdmin</span>
@@ -100,7 +93,7 @@
         </div>
 
         <div class="cat-block">
-          <p class="cat-header bi-tools"> Herramientas</p>
+          <p class="cat-header bi-tools">Herramientas</p>
           <div class="cat-items">
             <span>Git</span>
             <span>Postman</span>
@@ -111,10 +104,10 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <section class="proyectos">
-      <h2 class="titulo">Proyectos Desarrollados</h2>
+    <section id="proyectos" class="proyectos">
+      <h2 class="tituloSeccion">Proyectos Desarrollados</h2>
       <div class="proyecto-ind">
         <div class="contenido-textos">
           <h3>E-Commerce de Ropa: SHALOM</h3>
@@ -168,65 +161,49 @@
       </div>
     </section>
 
-    <section class="aptitudes">
-      <div class="contenedor">
-        <p class="titulo">Habilidades Blandas</p>
-        <div class="aptitud-cont">
-          <div class="aptitud-ind">
-            <div class="habilidad-icon bi-people"></div>
-            <h3>Trabajo en equipo</h3>
-            <p>
-              Colaboro de forma efectiva con otros para alcanzar objetivos
-              comunes, aportando empatía, respeto y compromiso.
-            </p>
-          </div>
-          <div class="aptitud-ind">
-            <div class="habilidad-icon bi-lightbulb"></div>
-            <h3>Resolución de problemas</h3>
-            <p>
-              Analizo situaciones complejas, identifico causas y propongo
-              soluciones prácticas y eficientes.
-            </p>
-          </div>
-          <div class="aptitud-ind">
-            <div class="habilidad-icon bi-book"></div>
-            <h3>Autodidacta</h3>
-            <p>
-              Me gusta aprender por cuenta propia, investigar y mantenerme
-              siempre actualizado en nuevas tecnologías y tendencias.
-            </p>
-          </div>
-          <div class="aptitud-ind">
-            <div class="habilidad-icon bi-chat-left-dots"></div>
-            <h3>Comunicación efectiva</h3>
-            <p>
-              Expreso ideas de forma clara y asertiva, escucho activamente y
-              adapto el mensaje según la audiencia y el contexto.
-            </p>
+    <section id="aptitudes" class="cont-areas">
+      <div class="aptitudes">
+        <div class="contenedor">
+          <p class="titulo">Habilidades Blandas</p>
+          <div class="aptitud-cont">
+            <div class="aptitud-ind">
+              <div class="habilidad-icon bi-people"></div>
+              <h3>Trabajo en equipo</h3>
+              <p>
+                Colaboro de forma efectiva con otros para alcanzar objetivos
+                comunes, aportando empatía, respeto y compromiso.
+              </p>
+            </div>
+            <div class="aptitud-ind">
+              <div class="habilidad-icon bi-lightbulb"></div>
+              <h3>Resolución de problemas</h3>
+              <p>
+                Analizo situaciones complejas, identifico causas y propongo
+                soluciones prácticas y eficientes.
+              </p>
+            </div>
+            <div class="aptitud-ind">
+              <div class="habilidad-icon bi-book"></div>
+              <h3>Autodidacta</h3>
+              <p>
+                Me gusta aprender por cuenta propia, investigar y mantenerme
+                siempre actualizado en nuevas tecnologías y tendencias.
+              </p>
+            </div>
+            <div class="aptitud-ind">
+              <div class="habilidad-icon bi-chat-left-dots"></div>
+              <h3>Comunicación efectiva</h3>
+              <p>
+                Expreso ideas de forma clara y asertiva, escucho activamente y
+                adapto el mensaje según la audiencia y el contexto.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <div class="info">
-      <p class="tituloSeccion">Educación</p>
-      <p class="tituloInfo">Educación Superior:</p>
-      <p class="infoInfo">
-        Universidad Francisco de Paula Santander, Ingeniera de Sistemas,
-        Ingeniería de sistemas · (2021 - Actualidad)
-      </p>
-    </div>
-
-    <div class="info">
-      <p class="tituloSeccion">Lenguajes</p>
-      <p class="tituloInfo">Lengua Materna:</p>
-      <p class="infoInfo">Español</p>
-      <br />
-      <p class="tituloInfo">Otras Lenguas:</p>
-      <p class="infoInfo">Inglés - Nivel B2</p>
-    </div>
-
-    <footer>
+    <footer id="contacto">
       <div class="contenedor-footer">
         <div class="content-foo content-foo-logo">
           <div class="logo">
@@ -237,16 +214,14 @@
           <h4>E-mail</h4>
           <h5>Institucional:</h5>
           <p class="infoInfo">yarlinanyelisrr@ufps.edu.co</p>
-          <h5>Personal:</h5>
-          <p class="infoInfo">yarlinrivera12@gmail.com</p>
         </div>
         <div class="content-foo">
           <h4>Mis Perfiles</h4>
-          <a href="https://www.linkedin.com/in/yarlin-rivera/" target="_blank"
+          <a href="https://www.linkedin.com/in/yarlin-rivera" target="_blank"
             ><img src="img/linkedin.png" alt="" /></a
           ><br />
-          <a href="https://gitlab.com/yarlinanyelisriverarondon" target="_blank"
-            ><img src="img/gitlab.png" alt="" /></a
+          <a href="mailto:yarlinrivera12@gmail.com" target="_blank"
+            ><img src="img/gmail.png" alt="" /></a
           ><br />
           <a href="https://github.com/YarlinRiveraR/" target="_blank"
             ><img src="img/github.png" alt=""
