@@ -47,7 +47,7 @@ header h1{
   text-transform: uppercase;
 }
 
-nav {
+nav.navbar {
   display: flex;
   justify-content: center;
   background: var(--color-off-white);

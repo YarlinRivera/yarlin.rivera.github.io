@@ -25,15 +25,22 @@
     <header>
       <h1>MI HOJA DE VIDA</h1>
     </header>
-    <nav>
-      <ul>
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#sobre-mi">Sobre Mí</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-        <li><a href="#aptitudes">Aptitudes</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuColapsable" aria-expanded="false">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="menuColapsable">
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre Mí</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#aptitudes">Aptitudes</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
     <section id="inicio" class="name">
@@ -210,11 +217,7 @@
             <img src="img/Yarlin-logos_white.png" alt="Tu-Logo" />
           </div>
         </div>
-        <div class="content-foo">
-          <h4>E-mail</h4>
-          <h5>Institucional:</h5>
-          <p class="infoInfo">yarlinanyelisrr@ufps.edu.co</p>
-        </div>
+        
         <div class="content-foo">
           <h4>Mis Perfiles</h4>
           <div class="social-links">
@@ -240,5 +243,6 @@
         }
       })();
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
